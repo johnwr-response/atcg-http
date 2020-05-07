@@ -18,6 +18,9 @@ ng g s posts --skipTests true
 
 ```
 
+# Links
+Official Docs: https://angular.io/guide/http
+
 # Git
 ```
 git init 
