@@ -11,6 +11,12 @@ ng serve
     - https://ngcg-http.firebaseio.com/
 
 
+# Service
+```
+ng g s posts --skipTests true
+
+```
+
 # Git
 ```
 git init 
