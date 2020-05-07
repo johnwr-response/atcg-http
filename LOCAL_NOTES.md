@@ -9,7 +9,8 @@ ng serve
     - Choose realtime Database
     - Start in Test Mode
     - https://ngcg-http.firebaseio.com/
-  - Disable reading in rules
+  - Disable read in rules to simulate errors
+  - Enable read in rules
 
 # Service
 ```
