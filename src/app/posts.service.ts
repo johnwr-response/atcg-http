@@ -35,4 +35,8 @@ export class PostsService {
         return postsArray;
       }));
   }
+
+  deletePosts() {
+    return this.http.delete('https://ngcg-http.firebaseio.com/posts.json');
+  }
 }
