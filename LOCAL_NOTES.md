@@ -3,6 +3,12 @@
 npm install
 ng serve
 ```
+# Firebase
+- https://console.firebase.google.com
+  - Create database
+    - Choose realtime Database
+    - Start in Test Mode
+    - https://ngcg-http.firebaseio.com/
 
 
 # Git
