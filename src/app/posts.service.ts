@@ -38,7 +38,8 @@ export class PostsService {
         'https://ngcg-http.firebaseio.com/posts.json',
         {
           headers: new HttpHeaders({'Custom-Header': 'Hello'}),
-          params: searchParams
+          params: searchParams,
+          responseType: 'json'
         }
       )
       .pipe(
@@ -62,7 +63,8 @@ export class PostsService {
     return this.http.delete(
       'https://ngcg-http.firebaseio.com/posts.json',
       {
-        observe: 'events'
+        observe: 'events',
+        responseType: 'text'
       }
     ).pipe(tap(event => {
       console.log(event);
